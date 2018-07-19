@@ -13,6 +13,7 @@ import networkx as nx
 ###
 
 def parseSpectra(path, NUM_OF_SPECTRA=10, limit=False):
+    print "Running..."
     fileHandle = open(path, "rU")    # Store file handle object in variable
     
     ID = ""    # Defined ID variable (which will be our key)
@@ -66,8 +67,9 @@ def parseSpectra(path, NUM_OF_SPECTRA=10, limit=False):
             
     if limit == False:
         print "%d spectra parsed" % (counter)"
-   
-   return metadata, spectra
+    
+    print "Finished running"
+    return metadata, spectra
 	
 
 ###	
