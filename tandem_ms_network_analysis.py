@@ -1,9 +1,26 @@
-# Make sure you have the scpectrum_alignment module in your search path
-from spectrum_alignment import score_alignment 
+from collections import namedtuple
+
+# To caluclate the similarity (cosine) scores we make use of these two modules
+# Make sure you add them to your search path
+import scoring_functions as sf
+import spectrum_alignment as sa
+
 ## We are going to use Networkx to manipulate and process networks##
 import networkx as nx
 
+# Variable (attribute) for storing spectral library paths
+LIBRARIES = []
 
+###
+# This function adds paths to a libraries to the LIBRARIES list.
+# It can take multiple paths as an input
+###
+
+def set_libraries(*library_paths):
+    del LIBRARIES[:]
+    for path in library_paths:
+        LIBRARIES.append(path)
+		
 
 ###
 # This function parses mgf files into two dictionaries
@@ -13,7 +30,7 @@ import networkx as nx
 ###
 
 def parseSpectra(path, NUM_OF_SPECTRA=10, limit=False):
-    print "Running..."
+    print "Parsing..."
     fileHandle = open(path, "rU")    # Store file handle object in variable
     
     ID = ""    # Defined ID variable (which will be our key)
@@ -40,50 +57,69 @@ def parseSpectra(path, NUM_OF_SPECTRA=10, limit=False):
             #For each spectra, the list of tuples are re-initialized
             field_descriptions = [] 
             fragments =[]
+            ID = ""
             
-        elif line.startswith("FEATURE"):
+        elif line.startswith("FEATURE") or line.startswith("SPECTRUMID"):
             feature_id = line.split("=")
             ID = feature_id[1][:-1]
             
+            if len(field_descriptions) > 0:
+                metadata[ID] = field_descriptions
             
         ## Creating metadata dictionary ##
-        elif "=" in line:          # All the field descriptions have an "=" sign
-            data = line.split("=")
+        elif "=" in line:
+            if not(line.startswith("FEATURE")) or not(line.startswith("SPECTRUMID")):
+            
+                data = line.split("=")
             
             # The slicing notation is to remove the trailing "/n"
-            field_tups = (data[0], data[1][:-1])    
-            field_descriptions.append(field_tups)
-            metadata[ID] = field_descriptions
+                field_tups = (data[0], data[1][:-1])    
+                field_descriptions.append(field_tups)
+                
+                if ID != "":
+                    metadata[ID] = field_descriptions
             
             
         
         
         ## Creating mass spectra dictionary  ##
-        elif not(line.isspace()) and "END" not in line:
+        elif line[0].isdigit():
             ion_data = line.split()
             ion_tups = (float(ion_data[0]), float(ion_data[1]))
             fragments.append(ion_tups)
             spectra[ID] = fragments
             
-    if limit == False:
-        print "%d spectra parsed" % (counter)"
     
-    print "Finished running"
+    print "%d spectra parsed" % (counter)
+    
+    print "Finished parsing"
     return metadata, spectra
 	
 
 ###	
-# Function that scores the similarity between two spectra using the imported "score_alignment()" function
-# It also writes the results to a file
-# It takes the outputs of parseSpectra(), and a path for the result file as arguments
+# This function performs a pairwise calculation of similarity scores. 
+# It takes metadata and spectral data libraries generated from the parseSpectra() function.
+# The tolerance for matching peaks, when calculating the similarity score, has default value of 0.3.
+# The minimum number of matched peaks between spectra, when calculating the similarity score, has a default
+# value of 6.
+# The parent mass difference for indicating a possible identical match (or consensus) has default value of 0.2 Da.
+# The output is a report of the ID's and their cosine score. The output path should be specified.
 ###
 
-def process_spectra_similarity(metadata, spectral_data, path):
+def process_spectra_similarity(metadata, spectral_data, path, tolerance=0.3, min_match=6, pm_range=0.2):
+    
+    # It's converted to an integer to accommodate the range() function
+    k = pm_range * 1000 
+    
     fileout = open(path,"w")
     keys = metadata.keys()
     
+    # Named tuple for storing peak information necessary for calculating spectra similarity
+    spec = namedtuple("spec",["n_peaks", "normalised_peaks", "parent_mz"])
+    
     header = "The format is in ID, ID, similarity score" + "\n"
     fileout.write(header + "\n")
+    
     
     # This lists holds tuples of indices
     # This list is used to prevent repeating comparisons
@@ -101,15 +137,126 @@ def process_spectra_similarity(metadata, spectral_data, path):
         # Index 0 is the first tuple in the list (containing parent mass info)
         # Index 1 of the tuple is the parent mass value
                 parent_mass1 = float(metadata[x][0][1])
-                parent_mass2 = float(metadata[y][0][1]) 
+                parent_mass2 = float(metadata[y][0][1])
                 
-                score, reported_alignments = score_alignment(spectral_data[x], 
-                                                             spectral_data[y], parent_mass1, parent_mass2, 0.3)
+                # Condition to prevent potential comparison of the same compound
+            # Here, it is believed that compounds with parent massess within 0.2 Da of each other are
+            # the same compound
+                if parent_mass1 * 1000 not in range(int((parent_mass2 * 1000)) - k, 
+                                                    int((parent_mass2 * 1000)) + k + 1): 
+                    
+                    # Normalize spectra
+                    spec1_n = sa.sqrt_normalize_spectrum(sa.convert_to_peaks(spectral_data[x]))
+                    spec2_n = sa.sqrt_normalize_spectrum(sa.convert_to_peaks(spectral_data[y]))
                 
+                    # Formatting tuple for spec1 and spec2
+                    nt_spec1 = (len(spectral_data[x]), spec1_n, parent_mass1)
+                    nt_spec2 = (len(spectral_data[y]), spec2_n, parent_mass2)
+                
+                        # Calculating cosine score
+                    score, used_matches = sf.fast_cosine_shift(spec(*nt_spec1), spec(*nt_spec2), 
+                                                               tolerance, min_match)
+                
+                #score, reported_alignments = score_alignment(spectral_data[x], 
+                                                            # spectral_data[y], parent_mass1, parent_mass2, 0.3)
                 
                 line = x + " " + y + " " + str(score) + "\n"
                 fileout.write(line)
                 
+	
+###
+# This function returns the name, and the pubmed ID, of a compound.
+# It is intended for thr find_library_match function, returning these values for spectra found to match
+# with the query spectra dataset.
+# It takes a list of metadata as input
+###
+
+def identify_match_compound(metadata_list):
+    
+    compound_name = ""
+    pubmed_id = ""
+    
+    for feature in metadata_list:
+        if feature[0] == "NAME":
+            compound_name = feature[1]
+        
+        if feature[0] == "PUBMED": 
+            pubmed_id = feature[1]
+    
+    return compound_name, pubmed_id
+	
+
+
+###
+# This function finds spectral library hits. The library searched are the ones present in the LIBRARIES list.
+# It takes query metadata and spectral data libraries generated from the parseSpectra() function.
+# The tolerance for matching peaks, when calculating the similarity score, has default value of 0.3
+# The minimum number of matched peaks between spectra, when calculating the similarity score, has a default
+# value of 6.
+# The parent mass difference for indicating a possible identical match (or consensus) has default value of
+# 0.2 Da
+# The output is a report of the matches found. The output path should be specified.
+# If no matches are found, then the report will only have the header.
+###
+
+
+def find_library_match(query_metadata, query_spec, path, tolerance=0.3, min_match=6, pm_range=0.2):
+    
+    print "Looking for hits..."
+    
+    # It's converted to an integer to accommodate the range() function
+    k = pm_range * 1000 
+    
+    # Named tuple for storing peak information necessary for calculating spectra similarity
+    spec = namedtuple("spec",["n_peaks", "normalised_peaks", "parent_mz"])
+    
+    fileout = open(path,"w")
+    header = "ID" + "\t" + "Identification status" + "\t" + "Compound name" + "\t" + "Match ID" + "\t" + "Pubmed ID" + "\t" + "Match score" + "\n"
+    fileout.write(header)
+    
+    # Each spectral library is parsed and each peak info is iterated over until a match is found
+    for library in LIBRARIES:
+            l_mdata, l_sdata = parseSpectra(library)
+           # print l_mdata.keys()
+            
+            for x in query_metadata.keys():
+                q_parent_mass = float(query_metadata[x][0][1])
+                
+                for l_keys in l_mdata.keys():
+                    #print l_keys
+                    l_parent_mass = float(l_mdata[l_keys][0][1])
+                    
+                    
+                    
+                # Similarity scores are only calculated if the parent masses are within a certain
+                # range of each other
+                    if l_parent_mass * 1000 in range(int((q_parent_mass * 1000)) - k,
+                                                     int((q_parent_mass * 1000)) + k + 1):
+                            
+                        # Normalize spectra
+                        l_spec = sa.sqrt_normalize_spectrum(sa.convert_to_peaks(l_sdata[l_keys]))
+                        q_spec = sa.sqrt_normalize_spectrum(sa.convert_to_peaks(query_spec[x]))
+                
+                        # Formatting tuple for spec1 and spec2
+                        t_Lspec = (len(l_sdata[l_keys]), l_spec, l_parent_mass)
+                        t_Qspec = (len(query_spec[x]), q_spec, q_parent_mass)
+                
+                        # Calculating cosine score
+                        score, used_matches = sf.fast_cosine_shift(spec(*t_Lspec), spec(*t_Qspec), 
+                                                               tolerance, min_match)
+                        
+                        # It's only a match if the cosine score above a 0.95 threshold
+                        # A report of the match is given in a file
+                        if score >= 0.95:
+                            compound_name, pubmed_id = identify_match_compound(l_mdata[l_keys])
+                            
+                            line = x + "\t" + "identified" + "\t" + compound_name + "\t" + l_keys + "\t" + pubmed_id + "\t" + str(score) + "\n"
+                            fileout.write(line)
+            
+    print "Finished looking for hits"
+
+
+
 	
 	###
 	# This function is used to arrange the data in the file (produced from the process_spectra_similarity() function)  into an edge list 
@@ -167,11 +314,12 @@ def filter_topk (graph, k):
     # Filtering top k ..
     ## Each node (key) in the graph dictionary has its list of tuples sorted according to
     ## the score of the edge (DESCENDING order).
-    ## Edges is not part of the top k edges of incident nodes are removed
+    ## Edges not part of the top k edges of both node and incident node are removed
     
     for node in graph_dictionary.keys():
+        graph_dictionary[node].sort(key= lambda x:x[1], reverse=True)
         
-        for edge in graph_dictionary[node]:
+        for edge in graph_dictionary[node][:k]:
            # other_node_edges = ggd[edge[0]]
             graph_dictionary[edge[0]].sort(key= lambda x:x[1], reverse=True)
             
@@ -196,7 +344,8 @@ def filter_topk (graph, k):
     #Remove the discarded edges from the graph
     graph.remove_edges_from(discarded_edges)
 	
-	###
+	
+###
 # This function ensures that connecteing components are not greater than a certain size threshold
 # It keeps removing the lowest scoring edge in a connecting component until it size has broken down.
 # Inputs are a networkx graph object and the size threshold (which is an integer)
@@ -234,3 +383,4 @@ def manage_component_size(graph, size):
                
 
                 graph.remove_edge(edge_to_remove[0],edge_to_remove[1])
+               
