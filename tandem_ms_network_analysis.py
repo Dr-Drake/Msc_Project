@@ -261,26 +261,30 @@ def find_library_match(query_metadata, query_spec, path, tolerance=0.3, min_matc
 
 
 	
-	###
-	# This function is used to arrange the data in the file (produced from the process_spectra_similarity() function)  into an edge list 
-	# There is an optioinal argument to specify the threshold for filtering edges based on their scores
-	###
-def generate_edgeList(path, threshold=0):
+### 
+# This function is used to format the pairwise comparison file to an edge list.
+# The edge list is used to make a networkx graph object.
+# The input is a path to the file (produced by the process_spectra_similarity() function.
+# There is an optioinal argument to specify the threshold for filtering edges based on their scores. The default is 0.5
+###
+def generate_edgeList(path, threshold=0.5):
     fileHandle = open(path, "rU")
     Edge_list = []   # The edge list variable
     
     for line in fileHandle:
         
-    # Note: info in line is in the format ID, ID, Score  
-    # Score is the edge attribute, ID's are the start and end nodes (edges)
-        data = line.split()
-        edge_attribute = {}    # dictionary for storing edge attributes (scores)
-        edge_attribute["score"] = data[2]
+        if line[0].isdigit():
         
-    # This condition is used to filter low scoring edges
-        if float(data[2]) >= threshold:
-            tups = (data[0], data[1], edge_attribute)    # This contains the edges and edge_attribute dictionary
-            Edge_list.append(tups)
+        # Note: info in line is in the format ID, ID, Score  
+        #Score is the edge attribute, ID's are the start and end nodes (edges)
+            data = line.split()
+            edge_attribute = {}    # dictionary for storing edge attributes (scores)
+            edge_attribute["score"] = data[2]
+        
+        # This condition is used to filter low scoring edges
+            if float(data[2]) >= threshold:
+                tups = (data[0], data[1], edge_attribute)    # This contains the edges and edge_attribute dictionary
+                Edge_list.append(tups)
         
     return Edge_list
 	
