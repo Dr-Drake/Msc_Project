@@ -227,31 +227,34 @@ def find_library_match(query_metadata, query_spec, path, tolerance=0.3, min_matc
                     l_parent_mass = float(l_mdata[l_keys][0][1])
                     
                     
-                    
-                # Similarity scores are only calculated if the parent masses are within a certain
-                # range of each other
-                    if l_parent_mass * 1000 in range(int((q_parent_mass * 1000)) - int(k),
+                    try:    
+                    # Similarity scores are only calculated if the parent masses are within a certain
+                    # range of each other
+                
+                         if l_parent_mass * 1000 in range(int((q_parent_mass * 1000)) - int(k),
                                                      int((q_parent_mass * 1000)) + int(k) + 1):
                             
-                        # Normalize spectra
-                        l_spec = sa.sqrt_normalize_spectrum(sa.convert_to_peaks(l_sdata[l_keys]))
-                        q_spec = sa.sqrt_normalize_spectrum(sa.convert_to_peaks(query_spec[x]))
+                            # Normalize spectra
+                            l_spec = sa.sqrt_normalize_spectrum(sa.convert_to_peaks(l_sdata[l_keys]))
+                            q_spec = sa.sqrt_normalize_spectrum(sa.convert_to_peaks(query_spec[x]))
                 
-                        # Formatting tuple for spec1 and spec2
-                        t_Lspec = (len(l_sdata[l_keys]), l_spec, l_parent_mass)
-                        t_Qspec = (len(query_spec[x]), q_spec, q_parent_mass)
+                            # Formatting tuple for spec1 and spec2
+                            t_Lspec = (len(l_sdata[l_keys]), l_spec, l_parent_mass)
+                            t_Qspec = (len(query_spec[x]), q_spec, q_parent_mass)
                 
-                        # Calculating cosine score
-                        score, used_matches = sf.fast_cosine_shift(spec(*t_Lspec), spec(*t_Qspec), 
+                            # Calculating cosine score
+                            score, used_matches = sf.fast_cosine_shift(spec(*t_Lspec), spec(*t_Qspec), 
                                                                tolerance, min_match)
                         
-                        # It's only a match if the cosine score above a 0.95 threshold
-                        # A report of the match is given in a file
-                        if score >= 0.95:
-                            compound_name, pubmed_id = identify_match_compound(l_mdata[l_keys])
+                            # It's only a match if the cosine score above a 0.95 threshold
+                            # A report of the match is given in a file
+                            if score >= 0.95:
+                                compound_name, pubmed_id = identify_match_compound(l_mdata[l_keys])
                             
-                            line = x + "\t" + "identified" + "\t" + compound_name + "\t" + l_keys + "\t" + pubmed_id + "\t" + str(score) + "\n"
-                            fileout.write(line)
+                                line = x + "\t" + "identified" + "\t" + compound_name + "\t" + l_keys + "\t" + pubmed_id + "\t" + str(score) + "\n"
+                                fileout.write(line)
+                    except KeyError:
+                        print "%s does not have peak data" % (l_keys)
             
     print "Finished looking for hits"
 
