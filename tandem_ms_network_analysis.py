@@ -142,8 +142,8 @@ def process_spectra_similarity(metadata, spectral_data, path, tolerance=0.3, min
                 # Condition to prevent potential comparison of the same compound
             # Here, it is believed that compounds with parent massess within 0.2 Da of each other are
             # the same compound
-                if parent_mass1 * 1000 not in range(int((parent_mass2 * 1000)) - k, 
-                                                    int((parent_mass2 * 1000)) + k + 1): 
+                if parent_mass1 * 1000 not in range(int((parent_mass2 * 1000)) - int(k), 
+                                                    int((parent_mass2 * 1000)) + int(k) + 1): 
                     
                     # Normalize spectra
                     spec1_n = sa.sqrt_normalize_spectrum(sa.convert_to_peaks(spectral_data[x]))
@@ -230,8 +230,8 @@ def find_library_match(query_metadata, query_spec, path, tolerance=0.3, min_matc
                     
                 # Similarity scores are only calculated if the parent masses are within a certain
                 # range of each other
-                    if l_parent_mass * 1000 in range(int((q_parent_mass * 1000)) - k,
-                                                     int((q_parent_mass * 1000)) + k + 1):
+                    if l_parent_mass * 1000 in range(int((q_parent_mass * 1000)) - int(k),
+                                                     int((q_parent_mass * 1000)) + int(k) + 1):
                             
                         # Normalize spectra
                         l_spec = sa.sqrt_normalize_spectrum(sa.convert_to_peaks(l_sdata[l_keys]))
