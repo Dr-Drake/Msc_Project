@@ -200,7 +200,7 @@ def identify_match_compound(metadata_list):
 ###
 
 
-def find_library_match(query_metadata, query_spec, path, tolerance=0.3, min_match=6, pm_range=0.2):
+def find_library_match(query_metadata, query_spec, path, tolerance=0.3, min_match=6, pm_range=0.2, cosine_threshold=0.95):
     
     print "Looking for hits..."
     
@@ -248,7 +248,7 @@ def find_library_match(query_metadata, query_spec, path, tolerance=0.3, min_matc
                         
                             # It's only a match if the cosine score above a 0.95 threshold
                             # A report of the match is given in a file
-                            if score >= 0.95:
+                            if score >= cosine_threshold:
                                 compound_name, pubmed_id = identify_match_compound(l_mdata[l_keys])
                             
                                 line = x + "\t" + "identified" + "\t" + compound_name + "\t" + l_keys + "\t" + pubmed_id + "\t" + str(score) + "\n"
