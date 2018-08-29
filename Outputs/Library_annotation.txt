@@ -1,0 +1,231 @@
+ID	Compound name	Compound mass	Library	Match ID	Identification status	Match score
+352.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.747003786305
+352.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.839037172754
+441.pooled	Ethinoamide M+H	167.064	GNPS	CCMSLIB00000005850	Identified	0.715646399928
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000213670	Identified	0.727744252136
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000215151	Identified	0.727744252136
+441.pooled	Massbank:KO003508 6-Methylmercaptopurine|Thiopurine S-methylether [M+H]+	167.0	MASSBANK	CCMSLIB00000219546	Identified	0.763084038154
+9.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.778220124259
+9.pooled	Massbank:PB001418 Serotonin|3-(2-aminoethyl)-1H-indol-5-ol [M+H]+	177.103	MASSBANK	CCMSLIB00000222103	Identified	0.715681656724
+90.pooled	Ethinoamide M+H	167.064	GNPS	CCMSLIB00000005850	Identified	0.722771772697
+90.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000213670	Identified	0.717915173457
+90.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000215151	Identified	0.717915173457
+90.pooled	Massbank:KO003508 6-Methylmercaptopurine|Thiopurine S-methylether [M+H]+	167.0	MASSBANK	CCMSLIB00000219546	Identified	0.765125745512
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+352.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.747003786305
+352.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.839037172754
+352.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.747003786305
+352.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.839037172754
+441.pooled	Ethinoamide M+H	167.064	GNPS	CCMSLIB00000005850	Identified	0.715646399928
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000213670	Identified	0.727744252136
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000215151	Identified	0.727744252136
+441.pooled	Massbank:KO003508 6-Methylmercaptopurine|Thiopurine S-methylether [M+H]+	167.0	MASSBANK	CCMSLIB00000219546	Identified	0.763084038154
+94.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.786141309025
+94.pooled	Massbank:PB001418 Serotonin|3-(2-aminoethyl)-1H-indol-5-ol [M+H]+	177.103	MASSBANK	CCMSLIB00000222103	Identified	0.727527871218
+6.extract2	Massbank:KO003363 5-Methylcytosine [M+H]+	126.0	MASSBANK	CCMSLIB00000219246	Identified	0.826983896941
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+352.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.747003786305
+352.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.839037172754
+441.pooled	Ethinoamide M+H	167.064	GNPS	CCMSLIB00000005850	Identified	0.715646399928
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000213670	Identified	0.727744252136
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000215151	Identified	0.727744252136
+441.pooled	Massbank:KO003508 6-Methylmercaptopurine|Thiopurine S-methylether [M+H]+	167.0	MASSBANK	CCMSLIB00000219546	Identified	0.763084038154
+272.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.780543472857
+272.pooled	Massbank:PB001418 Serotonin|3-(2-aminoethyl)-1H-indol-5-ol [M+H]+	177.103	MASSBANK	CCMSLIB00000222103	Identified	0.717656769671
+294.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.760738600466
+294.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.84440903366
+441.pooled	Ethinoamide M+H	167.064	GNPS	CCMSLIB00000005850	Identified	0.715646399928
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000213670	Identified	0.727744252136
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000215151	Identified	0.727744252136
+441.pooled	Massbank:KO003508 6-Methylmercaptopurine|Thiopurine S-methylether [M+H]+	167.0	MASSBANK	CCMSLIB00000219546	Identified	0.763084038154
+539.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.759652637229
+352.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.747003786305
+352.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.839037172754
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+352.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.747003786305
+352.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.839037172754
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+352.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.747003786305
+352.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.839037172754
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+352.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.747003786305
+352.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.839037172754
+441.pooled	Ethinoamide M+H	167.064	GNPS	CCMSLIB00000005850	Identified	0.715646399928
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000213670	Identified	0.727744252136
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000215151	Identified	0.727744252136
+441.pooled	Massbank:KO003508 6-Methylmercaptopurine|Thiopurine S-methylether [M+H]+	167.0	MASSBANK	CCMSLIB00000219546	Identified	0.763084038154
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+441.pooled	Ethinoamide M+H	167.064	GNPS	CCMSLIB00000005850	Identified	0.715646399928
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000213670	Identified	0.727744252136
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000215151	Identified	0.727744252136
+441.pooled	Massbank:KO003508 6-Methylmercaptopurine|Thiopurine S-methylether [M+H]+	167.0	MASSBANK	CCMSLIB00000219546	Identified	0.763084038154
+717.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.768698925512
+6.extract2	Massbank:KO003363 5-Methylcytosine [M+H]+	126.0	MASSBANK	CCMSLIB00000219246	Identified	0.826983896941
+94.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.786141309025
+94.pooled	Massbank:PB001418 Serotonin|3-(2-aminoethyl)-1H-indol-5-ol [M+H]+	177.103	MASSBANK	CCMSLIB00000222103	Identified	0.727527871218
+20.extract1	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.799648485079
+6.extract2	Massbank:KO003363 5-Methylcytosine [M+H]+	126.0	MASSBANK	CCMSLIB00000219246	Identified	0.826983896941
+29.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.771322889861
+29.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.889979077511
+539.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.759652637229
+182.extract1	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826541455234
+182.extract1	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.946594526906
+182.extract1	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.922357262558
+6.extract2	Massbank:KO003363 5-Methylcytosine [M+H]+	126.0	MASSBANK	CCMSLIB00000219246	Identified	0.826983896941
+29.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.771322889861
+29.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.889979077511
+539.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.759652637229
+177.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826483258657
+177.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.863412931503
+177.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.761802490765
+177.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.943561770837
+177.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.906021768483
+6.extract2	Massbank:KO003363 5-Methylcytosine [M+H]+	126.0	MASSBANK	CCMSLIB00000219246	Identified	0.826983896941
+29.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.771322889861
+29.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.889979077511
+350.extract1	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.845990031523
+350.extract1	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.888241291642
+350.extract1	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.976103744797
+350.extract1	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.940139534098
+350.extract1	Massbank:KO002256 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217003	Identified	0.845703671062
+6.extract2	Massbank:KO003363 5-Methylcytosine [M+H]+	126.0	MASSBANK	CCMSLIB00000219246	Identified	0.826983896941
+29.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.771322889861
+29.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.889979077511
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+94.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.786141309025
+94.pooled	Massbank:PB001418 Serotonin|3-(2-aminoethyl)-1H-indol-5-ol [M+H]+	177.103	MASSBANK	CCMSLIB00000222103	Identified	0.727527871218
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+29.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.771322889861
+29.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.889979077511
+539.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.759652637229
+177.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826483258657
+177.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.863412931503
+177.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.761802490765
+177.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.943561770837
+177.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.906021768483
+177.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826483258657
+177.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.863412931503
+177.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.761802490765
+177.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.943561770837
+177.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.906021768483
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+6.extract2	Massbank:KO003363 5-Methylcytosine [M+H]+	126.0	MASSBANK	CCMSLIB00000219246	Identified	0.826983896941
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+177.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826483258657
+177.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.863412931503
+177.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.761802490765
+177.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.943561770837
+177.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.906021768483
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+6.extract2	Massbank:KO003363 5-Methylcytosine [M+H]+	126.0	MASSBANK	CCMSLIB00000219246	Identified	0.826983896941
+29.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.771322889861
+29.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.889979077511
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+177.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826483258657
+177.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.863412931503
+177.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.761802490765
+177.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.943561770837
+177.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.906021768483
+94.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.786141309025
+94.pooled	Massbank:PB001418 Serotonin|3-(2-aminoethyl)-1H-indol-5-ol [M+H]+	177.103	MASSBANK	CCMSLIB00000222103	Identified	0.727527871218
+13.extract2	Massbank:KO002138 a-Aminoisobutyrate|2-Amino-2-methylpropanoate|2-Aminoisobutyric acid [M+H]+	104.0	MASSBANK	CCMSLIB00000216762	Identified	0.747698126429
+13.extract2	Massbank:KO002228 D-2-Aminobutyrate|(R)-2-Aminobutanoic acid|D-2-Aminobutanoic acid|D-2-Aminobutyric acid [M+H]+	104.0	MASSBANK	CCMSLIB00000216946	Identified	0.77891821616
+13.extract2	Massbank:KO002418 (S)-2-Aminobutyrate|(S)-2-Aminobutanoic acid|(S)-2-Aminobutanoate|(S)-2-Aminobutyric acid|L-2-Aminobutyric acid [M+H]+	104.0	MASSBANK	CCMSLIB00000217329	Identified	0.76858357942
+13.extract2	Massbank:KO002662 N,N-Dimethylglycine|Dimethylglycine [M+H]+	104.0	MASSBANK	CCMSLIB00000217822	Identified	0.746321733041
+13.extract2	Massbank:KO003357 N-Methylalanine|N-Methyl-L-alanine|N-Methyl-DL-Alanine [M+H]+	104.0	MASSBANK	CCMSLIB00000219234	Identified	0.796923156474
+177.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826483258657
+177.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.863412931503
+177.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.761802490765
+177.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.943561770837
+177.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.906021768483
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+6.extract2	Massbank:KO003363 5-Methylcytosine [M+H]+	126.0	MASSBANK	CCMSLIB00000219246	Identified	0.826983896941
+86.extract2	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.787478919878
+86.extract2	Massbank:PB001418 Serotonin|3-(2-aminoethyl)-1H-indol-5-ol [M+H]+	177.103	MASSBANK	CCMSLIB00000222103	Identified	0.728825553529
+29.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.771322889861
+29.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.889979077511
+161.extract2	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.767197926938
+161.extract2	Massbank:PB001418 Serotonin|3-(2-aminoethyl)-1H-indol-5-ol [M+H]+	177.103	MASSBANK	CCMSLIB00000222103	Identified	0.710497036874
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+29.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.771322889861
+29.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.889979077511
+177.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826483258657
+177.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.863412931503
+177.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.761802490765
+177.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.943561770837
+177.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.906021768483
+441.pooled	Ethinoamide M+H	167.064	GNPS	CCMSLIB00000005850	Identified	0.715646399928
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000213670	Identified	0.727744252136
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000215151	Identified	0.727744252136
+441.pooled	Massbank:KO003508 6-Methylmercaptopurine|Thiopurine S-methylether [M+H]+	167.0	MASSBANK	CCMSLIB00000219546	Identified	0.763084038154
+94.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.786141309025
+94.pooled	Massbank:PB001418 Serotonin|3-(2-aminoethyl)-1H-indol-5-ol [M+H]+	177.103	MASSBANK	CCMSLIB00000222103	Identified	0.727527871218
+94.pooled	Massbank:KO004019 Serotonin|3-(2-Aminoethyl)-1H-indol-5-ol|5-Hydroxytryptamine|Enteramine [M+H]+	177.0	MASSBANK	CCMSLIB00000220558	Identified	0.786141309025
+94.pooled	Massbank:PB001418 Serotonin|3-(2-aminoethyl)-1H-indol-5-ol [M+H]+	177.103	MASSBANK	CCMSLIB00000222103	Identified	0.727527871218
+51.pooled	Massbank:PB001602 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222126	Identified	0.943689926937
+51.pooled	Massbank:PB001603 Choline|2-hydroxyethyl-trimethylazanium M+	104.108	MASSBANK	CCMSLIB00000222128	Identified	0.825388603682
+177.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826483258657
+177.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.863412931503
+177.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.761802490765
+177.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.943561770837
+177.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.906021768483
+441.pooled	Ethinoamide M+H	167.064	GNPS	CCMSLIB00000005850	Identified	0.715646399928
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000213670	Identified	0.727744252136
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000215151	Identified	0.727744252136
+441.pooled	Massbank:KO003508 6-Methylmercaptopurine|Thiopurine S-methylether [M+H]+	167.0	MASSBANK	CCMSLIB00000219546	Identified	0.763084038154
+6.extract2	Massbank:KO003363 5-Methylcytosine [M+H]+	126.0	MASSBANK	CCMSLIB00000219246	Identified	0.826983896941
+89.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.77184138582
+89.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.881367949454
+6.extract2	Massbank:KO003363 5-Methylcytosine [M+H]+	126.0	MASSBANK	CCMSLIB00000219246	Identified	0.826983896941
+177.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826483258657
+177.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.863412931503
+177.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.761802490765
+177.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.943561770837
+177.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.906021768483
+441.pooled	Ethinoamide M+H	167.064	GNPS	CCMSLIB00000005850	Identified	0.715646399928
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000213670	Identified	0.727744252136
+441.pooled	Massbank:FIO00048 Dihydrojasmone [M+H]+	167.144	MASSBANK	CCMSLIB00000215151	Identified	0.727744252136
+441.pooled	Massbank:KO003508 6-Methylmercaptopurine|Thiopurine S-methylether [M+H]+	167.0	MASSBANK	CCMSLIB00000219546	Identified	0.763084038154
+177.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826483258657
+177.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.863412931503
+177.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.761802490765
+177.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.943561770837
+177.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.906021768483
+6.extract2	Massbank:KO003363 5-Methylcytosine [M+H]+	126.0	MASSBANK	CCMSLIB00000219246	Identified	0.826983896941
+177.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826483258657
+177.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.863412931503
+177.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.761802490765
+177.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.943561770837
+177.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.906021768483
+761.extract2	Massbank:MT000002 Betaine [M+H]+	118.2	MASSBANK	CCMSLIB00000221409	Identified	0.834501559412
+177.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.826483258657
+177.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.863412931503
+177.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.761802490765
+177.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.943561770837
+177.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.906021768483
+906.extract2	Massbank:KO002149 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216785	Identified	0.823123358452
+906.extract2	Massbank:KO002150 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216787	Identified	0.86180607565
+906.extract2	Massbank:KO002151 N-Acetylputrescine [M+H]+	131.0	MASSBANK	CCMSLIB00000216789	Identified	0.766121310241
+906.extract2	Massbank:KO002254 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000216999	Identified	0.936983477264
+906.extract2	Massbank:KO002255 Agmatine|(4-Aminobutyl) guanidine [M+H]+	131.0	MASSBANK	CCMSLIB00000217001	Identified	0.908410509576
+616.extract2	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.75938866142
+352.pooled	proline M+H	116.071	GNPS	CCMSLIB00000081786	Identified	0.747003786305
+352.pooled	Massbank:KNA00425 L-Ornithine|(S)-2,5-Diaminovaleric acid|(S)-2,5-Diaminopentanoic acid|(S)-2,5-Diaminopentanoate [M+H]	116.07	MASSBANK	CCMSLIB00000216480	Identified	0.839037172754
